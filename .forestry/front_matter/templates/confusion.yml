@@ -1,4 +1,32 @@
 ---
 label: Confusion
 hide_body: true
-fields: []
+fields:
+- name: group_fields
+  type: field_group
+  config: {}
+  fields:
+  - name: text_field_1
+    type: text
+    config:
+      required: false
+    label: Text field 1
+    description: This is the first text field
+  - name: text_field_2
+    type: text
+    config:
+      required: false
+    label: Text field 2
+    description: This is the second text field
+  label: Group fields
+  description: This is a group of fields
+- name: main_content
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Main content
+  description: This is the main content
