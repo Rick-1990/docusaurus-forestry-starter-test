@@ -5,7 +5,7 @@ admin_path:
 webhook_url: 
 sections:
 - type: document
-  path: other-docs
+  path: other-docs/**/*
   label: Another Docs
 - type: directory
   path: directory
