@@ -30,3 +30,5 @@ fields:
       format: markdown
   label: Main content
   description: This is the main content
+pages:
+- sidebars.json
