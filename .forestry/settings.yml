@@ -7,7 +7,6 @@ sections:
 - type: document
   path: other-docs
   label: Another Docs
-  match: "**/*"
 - type: directory
   path: directory
   label: Directory
